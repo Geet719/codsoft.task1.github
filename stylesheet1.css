@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    /* navbar */
+.head{
+    background-color: #071952;
+    height: 35px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav{
+    height: 105px;
+    background-color: #35A29F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    background-image: url("travel.jpeg");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    padding-right: 50px;
+}
+.nav h3{
+    color: white;
+}
+.border:hover{
+    background-color: #97FEED;
+    border: 2px solid #071952;
+}
+.menu{
+    background-color: white;
+    border:2px solid #071952;
+}
+.menu select{
+    border: 0;
+}
+.menu:hover{
+    border: 3px solid #97FEED;
+    border-radius: 3px;
+}
+.nav-anchor{
+    text-decoration: none;
+    color: 97FEED;
+    font-size: 1.2rem;
+}
+.nav-anchor:hover{
+    text-decoration: underline;
+    color: #97FEED;
+}
+ /* main */
+ .travel{
+    height: 600px;
+    width: 100%;
+    background-image: url("travelling.jpeg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ .qoute{
+    height: 200px;
+    width: 200px;
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+ }
+ .form{
+    height: 300px;
+    width: 200px;
+    background-color:transparent;
+    border: 3px solid #35A29F;
+    color: #35A29F;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+ }
+ .submit{
+    background-color:#0B666A;
+    color: #97FEED;
+ }
+ .about{
+    height: 300px;
+    width: 400px;
+    color: #565E71;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 500px;
+ }
+ .table{
+    width: 600px;
+    height: 300px;
+    font-size: 1.6rem;
+    margin-left: 450px;
+    color: #565E71;
+ }
+ .top{
+    display: flex;
+    height: 300px;
+    width: 650px;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    margin-left: 400px;
+ }
+ .dest{
+    height:210px;
+    width: 200px;
+ }
+.dest img{
+    border: 2px solid black;
+}
+.top-head{
+    margin-left: 650px;
+}
+button{
+    height: 60px;
+    width: 200px;
+    background-color: #6636CC;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    color:white;
+}
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+    height: 100px;
+    margin-left: 500px;
+}
+button:hover{
+    background-color: #9b75ec;
+}
